@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+  }
+  body {
+    scroll-behavior: smooth;
+  }
+  .container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 24px;
+  }
+  
+  /* ================= Header CSS Start  ================  */
+  
+  header {
+    height: 90px;
+  }
+  header .header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+  }
+  header .middle-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+  }
+  header .middle-menu a {
+    color: #4f5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  header .middle-menu a:hover {
+    color: #f53838;
+  }
+  header .right-menu {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+  }
+  header .right-menu a {
+    color: #0b132a;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+    transition: all 0.5s ease-in;
+  }
+  header .right-menu a:hover {
+    color: #f53838;
+  }
+  header .right-menu .btn-signup {
+    padding: 13px 45px;
+    background-color: transparent;
+    border: 1px solid #f53838;
+    border-radius: 50px;
+    transition: all 0.5s ease-in;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  header .right-menu .btn-signup:hover {
+    cursor: pointer;
+    background-color: #f53838;
+    color: #fff;
+  }
+  .hamburger {
+    display: none;
+  }
+  /* Header CSS End  */
+  /* =============== Hero CSS Start ===========  */
+  .hero-section {
+    display: block;
+  }
+  .hero-section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  .hero-section h1 {
+    color: #0b132a;
+    font-family: Rubik;
+    font-size: 23.491px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.888px; /* 140% */
+  }
+  .hero-section strong {
+    color: #0b132a;
+    font-size: 23.491px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.888px;
+  }
+  .hero-section p {
+    color: #4f5665;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin-bottom: 23.49px;
+    margin-top: 20px;
+  }
+  .hero-section button {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 156.25% */
+    border-radius: 10px;
+    background: #f53838;
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+  }
+  /* Wraper item CSS  */
+  .hero-section .wraper-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding-top: 103px;
+    padding-bottom: 103px;
+    margin-bottom: 32px;
+  }
+  .hero-section .item {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    /* border-right: 1px solid red ; */
+  }
+  .hero-section .wraper-items img {
+    border-radius: 10px;
+    background: #ffecec;
+    padding: 15px;
+  }
+  .hero-section .wraper-items h3 {
+    color: #0b132a;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 120% */
+  }
+  .hero-section .wraper-items span {
+    color: #4f5665;
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+  }
+  /* Hero CSS End */
+  /*================ Feature CSS Start ============ */
+  .features-section {
+    background: #fff;
+    padding: 50px 0 130px 0;
+  }
+  .features-section .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+  }
+  .features-section h1 {
+    color: #0b132a;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px; /* 142.857% */
+    padding-top: 70px;
+  }
+  .features-section p {
+    color: #4f5665;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+  }
+  .features-section ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  .features-section li {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .features-section span {
+    color: #4f5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+  }
+  /*  Feature CSS End  */
+  /* ============= service-section CSS Start ============= */
+  .service-section h1 {
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .service-section p {
+    max-width: 550px;
+    color: #4f5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;
+  }
+  .service-section {
+    background: linear-gradient(
+      180deg,
+      #f8f8f8 -45.04%,
+      rgba(248, 248, 248, 0) 88.56%
+    );
+    padding-top: 80px;
+    padding-bottom: 150px;
+    text-align: center;
+  }
+  .service-section .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 112px;
+  }
+  .service-section .service-col {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    background: #fff;
+    padding: 80px 40px 76px 40px;
+    position: relative;
+  }
+  .service-section h2 {
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .service-section ul {
+    list-style: none;
+    margin-top: 30px;
+    padding-bottom: 110px;
+  }
+  .service-section li {
+    display: flex;
+    gap: 20px;
+    margin-top: 13px;
+  }
+  .service-section span {
+    color: #4f5665;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+  }
+  .service-section .plan-pricing {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  .service-section .plan-pricing strong {
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 120% */
+  }
+  .service-section .plan-pricing span {
+    color: #4f5665;
+    font-family: Rubik;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .service-section button {
+    color: #f53838;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 50px;
+    border: 2px solid #f53838;
+    background: #fff;
+    display: block;
+    padding: 13px 63px;
+    margin-top: 20px;
+  }
+  /* service-section end  */
+  /* ================== network-section CSS Start =============== */
+  .network-section {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .network-section h1 {
+    color: #0b132a;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 50px; /* 142.857% */
+  }
+  .network-section p {
+    max-width: 550px;
+    margin: 0 auto;
+    color: #4f5665;
+    text-align: center;
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .network-section .network-map {
+    width: 100%;
+    padding: 20px 10px;
+    margin-top: 155px;
+  }
+  /* Icon Wraper  */
+  .network-section .icon-wraper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+  .network-section .icon {
+    cursor: pointer;
+  }
+  <style>
+  /* Style for the container holding the items */
+  .item-container {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px;
+  }
+
+  /* Style for each item */
+  .item {
+      text-align: center;
+      padding: 20px;
+      background-color: #f3f3f3;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Style for the item images */
+  .item img {
+      width: 80px;
+      height: 100px;
+  }
+
+  /* Style for the item h3 (e.g., "90+") */
+  .item h3 {
+      font-size: 24px;
+      margin: 5px 0;
+      color: #333;
+  }
+
+  /* Style for the item spans (e.g., "Users") */
+  .item span {
+      font-size: 18px;
+      color: #777;
+  }
+
+
+
+    p {
+        text-align: center;
+    }
+
+    h1{
+        text-align: center;
+    }
+
